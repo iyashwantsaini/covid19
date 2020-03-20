@@ -1,12 +1,17 @@
 body {
-  font-family: Helvetica Neue, Arial, sans-serif;
+  /*font-family: Helvetica Neue, Arial, sans-serif;*/
+  font-family: Poppins,sans-serif;
   text-align: center;
+  color: #3b4351;
+  font-size: 15px;
+  font-weight: 700;
+  /*padding: 5px;*/
 }
 
 .wrapper {
-  max-width: 800px;
+  max-width: 91%;
   margin: 50px auto;
-  padding: 50px;
+  padding-top: 50px;
 }
 
 h1 {
@@ -26,4 +31,61 @@ a {
   margin-top: 50px;
   display: block;
   color: #3e95cd;
+}
+
+h3{
+  padding: 5px;
+}
+.sleekborder{
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.up{
+  display: flex;
+  flex-direction: row;
+}
+
+.direct{
+  width: 800px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  /*height: 50px;*/
+}
+
+.india{
+  max-width: 800px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+.india-pie{
+  max-width: 400px;
+}
+
+.india-map{
+  margin-left: 100px;
+}
+
+#world-map{
+  width: 800px;
+  height: 400px;
+}
+
+.map-graphs{
+  max-width: 800px;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.line-graphs{
+  /*max-width: 800px;*/
+  width: 430px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
 }

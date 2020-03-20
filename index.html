@@ -8,30 +8,69 @@
   </head>
   <body>
     <div class="wrapper">
-      <h1>Covid-19 WORLD</h1>
-      <h2>Update on COVID19</h2>
+      <h1>covid19 Updates</h1>
+      <h2>Updates of the World</h2>
 
-      <canvas id="bar-chart" width="800" height="450"></canvas>
+      <div class="up">
+        <div class="sleekborder direct">
+          <h4>CONFIRMED CASES<br>100</h4>
+        </div>
+        <div class="sleekborder direct">
+          <h4>RECOVERED CASES<br>100</h4>
+        </div>
+        <div class="sleekborder direct">
+          <h4>DEATH CASES<br>100</h4>
+        </div>
+      </div>
+
       <br>
-      <canvas id="line-chart" width="800" height="450"></canvas>
+      
+      <div class="line-graphs">
+        <canvas width="700px" height="500px" id="line-confirmed" class="sleekborder crucial"></canvas>
+        <br>
+        <canvas width="700px" height="500px" id="line-recovered" class="sleekborder crucial"></canvas>
+        <br>
+        <canvas width="700px" height="500px" id="line-death" class="sleekborder crucial"></canvas>
+      </div>
+
       <br>
-      <canvas id="pie-chart" width="800" height="450"></canvas>
       <br>
-      <canvas id="radar-chart" width="800" height="600"></canvas>
+      
+      <div class="map-graphs">
+        <div id="world-map"></div>
+        <br>
+        <canvas width="450px" height="250px" id="bar-chart-horizontal"></canvas>
+      </div>
+
       <br>
-      <canvas id="polar-chart" width="800" height="450"></canvas>
       <br>
-      <canvas id="doughnut-chart" width="800" height="450"></canvas>
+      
+      <div class="india">
+        <div id="india-map" class="india-flex"></div>
+        <canvas width="500px" height="250px" id="india-pie" class="india-flex"></canvas>
+
+      </div>
+      
+      <!-- <canvas id="bar-chart" class="sleekborder"></canvas>
       <br>
-      <canvas id="bar-chart-horizontal" width="800" height="450"></canvas>
+      <canvas id="line-chart" class="sleekborder"></canvas>
+      <br> -->
+      <!-- <canvas id="pie-chart" class="sleekborder"></canvas> -->
+      <!-- <br>
+      <canvas id="radar-chart" class="sleekborder"></canvas>
       <br>
-      <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
+      <canvas id="polar-chart" class="sleekborder"></canvas>
       <br>
-      <canvas id="mixed-chart" width="800" height="450"></canvas>
+      <canvas id="doughnut-chart" class="sleekborder"></canvas>
       <br>
-      <canvas id="bubble-chart" width="800" height="800"></canvas>
+      <canvas id="bar-chart-horizontal" class="sleekborder"></canvas>
       <br>
-      <div id="regions_div" style="width: 900px; height: 500px;"></div>
+      <canvas id="bar-chart-grouped" class="sleekborder"></canvas>
+      <br>
+      <canvas id="mixed-chart" class="sleekborder"></canvas>
+      <br>
+      <canvas id="bubble-chart" class="sleekborder"></canvas> -->
+      
 
     </div>
 
