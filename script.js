@@ -16,7 +16,7 @@ new Chart(document.getElementById("line-confirmed"), {
         borderColor: "#3e95cd",
         fill: false
       }, { 
-        data: [282,350,411,502,635,809,947,1402,3700,5267],
+        data: [282,350,411,502,635,809,947,1402,3700,5266],
         label: "Asia",
         borderColor: "#8e5ea2",
         fill: false
