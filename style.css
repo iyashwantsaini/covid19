@@ -1,15 +1,13 @@
 body {
-  /*font-family: Helvetica Neue, Arial, sans-serif;*/
   font-family: Poppins,sans-serif;
   text-align: center;
   color: #3b4351;
   font-size: 15px;
   font-weight: 700;
-  /*padding: 5px;*/
 }
 
 .wrapper {
-  max-width: 91%;
+  max-width: 1000px;
   margin: 50px auto;
   padding-top: 50px;
 }
@@ -27,15 +25,6 @@ h2 {
   color: #999;
 }
 
-a {
-  margin-top: 50px;
-  display: block;
-  color: #3e95cd;
-}
-
-h3{
-  padding: 5px;
-}
 .sleekborder{
   border: 1px solid grey;
   border-radius: 5px;
@@ -44,20 +33,38 @@ h3{
 
 .up{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
 .direct{
-  width: 800px;
+  width: 30%;
   border: 1px solid grey;
   border-radius: 5px;
   /*height: 50px;*/
 }
 
+.line-graphs{
+  /*width: 30%;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.crucial{
+  width: 30%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  /*height: 50px;*/
+}
+
+
 .india{
   /*max-width: 800px;*/
-  width: 800px;
+  width: 20%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
@@ -76,16 +83,10 @@ h3{
 
 .map-graphs{
   /*max-width: 800px;*/
-  width: 700px;
+  width: 40%;
   height: 400px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
-.line-graphs{
-  /*max-width: 800px;*/
-  width: 430px;
-  height: 400px;
-  display: flex;
-  flex-direction: row;
-}
