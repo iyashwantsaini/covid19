@@ -154,8 +154,8 @@ google.charts.load('current', {
         chart.draw(data, options);
       }
 
-new Chart(document.getElementById("bar-chart-horizontal"), {
-    type: 'horizontalBar',
+new Chart(document.getElementById("bar-chart"), {
+    type: 'bar',
     data: {
       labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
       datasets: [
