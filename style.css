@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-  max-width: 91%;
+  max-width: 1000px;
   margin: 50px auto;
   padding-top: 50px;
 }
